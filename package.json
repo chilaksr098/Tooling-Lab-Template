@@ -6,7 +6,10 @@
     "start": "open index.html",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "postinstall": "node .scripts/badge.js"
+    "postinstall": "node .scripts/badge.js",
+    "lint": "eslint resources/scripts",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
   "license": "UNLICENSED",
